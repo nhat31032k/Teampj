@@ -27,7 +27,7 @@ const timer = setInterval(() => {
     if (item) {
         item.parentNode.removeChild(item);
     }
-
+//sau đó mới thực thi câu lệnh 
     createNoti(title, url);
     // if (lastTitle === !title) {
 
